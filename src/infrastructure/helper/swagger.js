@@ -1,9 +1,4 @@
-import swaggerJsdoc from 'swagger-jsdoc';
-import path from 'path';
-import { fileURLToPath } from 'url';
-
-const currentFilePath = fileURLToPath(import.meta.url);
-const currentDir = path.dirname(currentFilePath);
+import swaggerJsDoc from 'swagger-jsdoc';
 
 const options = {
     definition: {
@@ -11,7 +6,7 @@ const options = {
         info: {
             title: 'Library API',
             version: '1.0.0',
-            description: 'API documentation for a library management system',
+            description: 'API for Library Management System',
         },
         servers: [
             {
@@ -19,9 +14,9 @@ const options = {
             },
         ],
     },
-    apis: [path.join(currentDir, './routes/*.js')],
+    apis: ['./src/presentation/routes/*.js'],
 };
 
-const specs = swaggerJsdoc(options);
+const specs = swaggerJsDoc(options);
 
 export default specs;
