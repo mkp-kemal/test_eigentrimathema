@@ -1,9 +1,4 @@
 # Backend Test Case
-# Documentation
-
-![Image 1](path/to/image1.png)
-![Image 2](path/to/image2.png)
-![Image 3](path/to/image3.png)
 
 ## Entities
 
@@ -14,15 +9,20 @@
 
 - Members can borrow books with conditions
     - [ ]  Members may not borrow more than 2 books ✅
+    - [ ]  <img src="https://raw.githubusercontent.com/mkp-kemal/test_eigentrimathema/development/doc/borrow%20not%203%20book.png" alt="Image 2" width="400" height="300">
     - [ ]  Borrowed books are not borrowed by other members ✅
     - [ ]  Member is currently not being penalized ✅
 - Member returns the book with conditions
     - [ ]  The returned book is a book that the member has borrowed ✅
+    - [ ]  <img src="https://raw.githubusercontent.com/mkp-kemal/test_eigentrimathema/development/doc/return%20book.png" alt="Image 3" width="400" height="300">
+    - [ ]  <img src="https://raw.githubusercontent.com/mkp-kemal/test_eigentrimathema/development/doc/return%20no%20borrowed%20book.png" alt="Image 3" width="400" height="300">
     - [ ]  If the book is returned after more than 7 days, the member will be subject to a penalty. Member with penalty cannot able to borrow the book for 3 days ✅
 - Check the book
+    - [ ]  <img src="https://raw.githubusercontent.com/mkp-kemal/test_eigentrimathema/development/doc/find%20book%20with%20not%20stock%200.png" alt="Image 1" width="400" height="300">
     - [ ]  Shows all existing books and quantities ✅
     - [ ]  Books that are being borrowed are not counted ✅
 - Member check
+    - [ ]  <img src="https://raw.githubusercontent.com/mkp-kemal/test_eigentrimathema/development/doc/find%20all%20existing%20books%20and%20quantities.png" alt="Image 1" width="400" height="300">
     - [ ]  Shows all existing members ✅
     - [ ]  The number of books being borrowed by each member ✅
 
