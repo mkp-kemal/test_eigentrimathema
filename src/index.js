@@ -1,14 +1,11 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import dotenv from 'dotenv';
-import connectDB from './db/connectDB.js';
-import borrowRoutes from './routes/borrow.js';
-import returnRoutes from './routes/return.js';
-import booksRoutes from './routes/books.js';
-import membersRoutes from './routes/members.js';
+import connectDB from './infrastructure/db/connectDB.js';
+import bookRoutes from './presentation/routes/book.routes.js';
+import memberRoutes from './presentation/routes/member.routes.js';
 import swaggerUi from 'swagger-ui-express';
-import specs from './helper/swagger.js';
-
+import specs from './infrastructure/helper/swagger.js';
 dotenv.config();
 
 const PORT = 3000;
@@ -19,10 +16,8 @@ app.use(bodyParser.json());
 
 connectDB();
 
-app.use('/borrow', borrowRoutes);
-app.use('/return', returnRoutes);
-app.use('/books', booksRoutes);
-app.use('/members', membersRoutes);
+app.use('/books', bookRoutes);
+app.use('/members', memberRoutes);
 
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs));
 
