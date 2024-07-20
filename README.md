@@ -13,6 +13,9 @@
 # Build With
 > NodeJS, Express, MongoDB, Swagger and Nodemon
 
+# Swagger API
+> `localhost:3000/api-docs`
+
 ## Entities
 
 - Member
