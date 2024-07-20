@@ -1,4 +1,20 @@
+
+<a href="https://linkedin.com/in/muhammad-kemal-pasha-a97770213/" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" width="30" height="30">
+</a>
+
 # Backend Test Case
+> - `git clone` project
+> - jalankan `npm i`
+> - buat file `.env`, masukan isinya pada zip yang dikirimkan lewat email
+> - jalankan dengan `npm run dev`
+> - localhost:3000
+
+# Build With
+> NodeJS, Express, MongoDB, Swagger and Nodemon
+
+# Swagger API
+> `localhost:3000/api-docs`
 
 ## Entities
 
@@ -49,10 +65,10 @@
 Kerjakan dengan menggunakan bahasa pemograman yg anda kuasai, buat folder terpisah untuk soal ini
 
 1. Terdapat string "NEGIE1", silahkan reverse alphabet nya dengan angka tetap diakhir kata Hasil = "EIGEN1"
-
+    > - `node reverseAlphabet.js`
 2. Diberikan contoh sebuah kalimat, silahkan cari kata terpanjang dari kalimat tersebut, jika ada kata dengan panjang yang sama silahkan ambil salah satu
+    > - `node longestWord.js`
 
-Contoh:  
 ```
 const sentence = "Saya sangat senang mengerjakan soal algoritma"
 
@@ -60,8 +76,8 @@ longest(sentence)
 // mengerjakan: 11 character
 ```
 3. Terdapat dua buah array yaitu array INPUT dan array QUERY, silahkan tentukan berapa kali kata dalam QUERY terdapat pada array INPUT
-
-Contoh:  
+    > - `node countWordsInInput.js`
+    
 ```
 INPUT = ['xc', 'dz', 'bbb', 'dz']  
 QUERY = ['bbb', 'ac', 'dz']  
@@ -70,8 +86,8 @@ OUTPUT = [1, 0, 2] karena kata 'bbb' terdapat 1 pada INPUT, kata 'ac' tidak ada 
 ```
 
 4. Silahkan cari hasil dari pengurangan dari jumlah diagonal sebuah matrik NxN Contoh:
+    > - `node matrixDiagonalDifference.js`
 
-Contoh:
 ```
 Matrix = [[1, 2, 0], [4, 5, 6], [7, 8, 9]]
 
