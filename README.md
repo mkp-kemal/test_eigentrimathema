@@ -10,6 +10,9 @@
 > - jalankan dengan `npm run dev`
 > - localhost:3000
 
+# Build With
+> NodeJS, Express, MongoDB, Swagger and Nodemon
+
 ## Entities
 
 - Member
