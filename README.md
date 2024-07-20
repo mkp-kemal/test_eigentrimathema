@@ -27,6 +27,7 @@
     - [ ]  Members may not borrow more than 2 books ✅
     - [ ]  <img src="https://raw.githubusercontent.com/mkp-kemal/test_eigentrimathema/development/doc/borrow%20not%203%20book.png" alt="Image 2" width="400" height="300">
     - [ ]  Borrowed books are not borrowed by other members ✅
+    - [ ]  <img src="https://raw.githubusercontent.com/mkp-kemal/test_eigentrimathema/development/doc/book%20borrowed.png" alt="Image 2" width="400" height="300">
     - [ ]  Member is currently not being penalized ✅
 - Member returns the book with conditions
     - [ ]  The returned book is a book that the member has borrowed ✅
